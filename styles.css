@@ -1,12 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 body{
-    color:red;
+    font-family: 'Rubik', sans-serif;
 }
-h1{
-    color:blue;
+
+:root{
+    --primary-color:rgb(102, 85, 255);
 }
-h2{
-    color: chartreuse;
+hr{
+    margin: 3rem 0.5rem;
 }
-.para{
-    color: pink;
+
+.container{
+    padding-left: lrem;
+   
+}
+.center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.primary{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color:white
+}
+.secondary{
+    color:var(--primary-color);
+    border-radius: 00.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.non-bullet{
+    list-style: none;
+}
+.inline-list{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
